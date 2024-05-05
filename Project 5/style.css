@@ -1,0 +1,231 @@
+@font-face {
+    font-family: machina;
+    src: url(./3856NeueMachina.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: rgb(22, 22, 22)
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 90px;
+}
+
+nav h1 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+nav h1 i {
+    rotate: 40deg;
+    display: inline-block;
+}
+
+nav h4 {
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+nav button {
+    font-size: 18px;
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#part2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.center {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    padding: 30px 90px;
+    padding-bottom: 10px;
+}
+
+.center-part1 {
+    height: 100%;
+    width: 45%;
+}
+
+.center-part1 h1 {
+    font-size: 58px;
+    font-family: machina;
+}
+
+.center-part1 p {
+    font-size: 18px;
+    width: 95%;
+    font-weight: 200;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.center-part1 button {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    border: none;
+    padding: 13px 20px;
+}
+
+.center-part2 {
+    height: 100%;
+    width: 55%;
+    position: relative;
+}
+
+.center-part2 img {
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.section1-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 120px;
+}
+
+.section1-bottom img {
+    height: 80px;
+}
+
+.section2 .services {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px 90px;
+    gap: 20px;
+}
+
+.services h2 {
+    background-color: #B9FF66;
+    font-size: 30px;
+    padding: 6px;
+    font-weight: 500;
+    font-family: machina;
+}
+
+.services p {
+    width: 40%;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.container {
+    min-height: 80vh;
+    width: 100%;
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.elem {
+    flex-shrink: 0;
+    height: 240px;
+    width: 45%;
+    display: flex;
+    border: 3px solid black;
+    border-radius: 30px;
+    box-shadow: 0 5px 0 black;
+    padding: 40px;
+}
+
+.elem-part1 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.elem-part1 h2 {
+    font-size: 24px;
+    background-color: #B9FF66;
+    font-weight: 500;
+    font-family: machina;
+    width: 90%;
+    padding: 0 2px;
+    border-radius: 5px;
+
+}
+
+.elem-part1 h4 {
+    font-size: 15px;
+    font-weight: 800;
+    font-family: machina;
+    padding: 0 2px;
+    border-radius: 5px;
+
+}
+
+.elem-part1 h4 i {
+    /* width: 100%; */
+    padding: 5px;
+    background-color: black;
+    border-radius: 50%;
+    color: wheat;
+
+}
+
+.elem-part2 {
+    height: 100%;
+    width: 50%;
+}
+
+.elem-part2 img {
+    height: 100%;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.black h2 {
+    background-color: white;
+    color: black;
+}
+
+.black h4 {
+    color: white;
+
+}
+
+.black h4 i {
+    background-color: white;
+    color: black;
+}
